@@ -12,33 +12,45 @@
 # Pasos para que la aplicacion funcione correctamente.
  
 # 1) Base de datos 
-Abrir el programa xampp y activar MySQL y Apache,
-En su servidor de base de datos locales Mysql crear la base de datos node20_mysql. 
+# Records-Manager
 
+### It consists of an application that works with the personal records of each user allowing different actions in order to control income and expenses of expenses It also keeps a personal balance of Income and Expenses, In addition to being able to modify them in the same application, everything it is done automatically.
 
-# 2)Backend en Node
+### This program takes the data from a database and shows it to you on the screen. You can make several calls and requests to the database, but this program does them automatically in a client interface. It also creates the table where to make the calls if required and gives 1 value to the first record by default. It can be adapted to any table since it is based on React components. And Changing the values ​​for other tables and other queries is easy.
 
-Una vez descargada la carpeta,  agregar el archivo .env en la carpeta Nodejs enviado por mail y luego en la terminal de la carpeta correr npm install y luego ejecutar npm run dev y ya estara escuchando el servidor en el puerto 3050.
-
-(el archivo .env que se encuentra dentro del archivo .zip "EntornoDeVariablesNode" nescesario para las credenciales del servidor fue enviado por mail.)
-
-Una vez que se encuntra corriendo ejecutar la request  POST localhost:3050/Table/createtableregister  por Postman o algun otra herramienta de testing de api rest. para crear la tabla principal. O importar el archivo de base de datos adjunto en su servidor local mysql.
+### It has a section where you can create a new user that is stored in a table. This table keeps track of users with their own tables
 
 
 
-
-# 3) FronEnd  en  React
-
-Carpeta de archivos del front desarrollados en react, el archivo .env faltante para dar autenticacion a authenticador  firebase que sirve para el registro y acceso de usuarios fue enviado por email en el archivo comprimido "EntornoDeVariablesReact".
-
-Descargar la carpeta, en la terminal de la carpeta correr con npm install y luego agregar el archivo .env que fue enviado por mail, por ultimo iniciar la pagina con npm start
-
- Activar el la extension CORS por si se encuentra en google Chrome.
+# Steps for the application to work properly.
+ 
+# 1) Database
+Open the xampp program and activate MySQL and Apache,
+On your local Mysql database server create node20_mysql database.
 
 
-Ademas ya se encuentra desplegado en la pagina https://patriciomirosh.github.io/login/ la pagina del Front, pero si no se realizan los pasos uno y dos, el administrador no puede acceder a la base de datos.
-El administrador que se encuentra en la pagina envia las request y accede a la ruta  localhost y el puerto 3050.
+# 2) Backend in Node
 
+Once the folder is downloaded, add the .env file in the Nodejs folder sent by mail and then in the terminal of the folder run npm install and then run npm run dev and the server will already be listening on port 3050.
+
+(The .env file found inside the .zip file "EntornoDeVariablesNode" required for the server credentials was sent by mail.)
+
+Once it is running, execute the POST request localhost: 3050 / Table / createtableregister by Postman or some other rest api testing tool. to create the main table. Or import the attached database file on your local mysql server.
+
+
+
+
+# 3) FronEnd in React
+
+Front file folder developed in react, the missing .env file to authenticate firebase authenticator that is used for user registration and access was sent by email in the compressed file "EntornoDeVariablesReact".
+
+Download the folder, in the terminal of the folder run with npm install and then add the .env file that was sent by mail, finally start the page with npm start
+
+ Activate the CORS extension in case it is in google Chrome.
+
+
+In addition, it is already displayed on the page https://patriciomirosh.github.io/login/ the Front page, but if steps one and two are not carried out, the administrator cannot access the database.
+The administrator on the page sends the requests and accesses the localhost route and port 3050.
 
 
 
