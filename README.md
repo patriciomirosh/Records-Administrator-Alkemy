@@ -1,17 +1,5 @@
 
-# Administrador-de-Registros
 
-### Consta de un a aplicacion que trabaja con los registros personales de cada usuario permitiendole diferentes acciones para asi poder controlar ingresos y egresos de gastos Tambien lleva un balance personal de los Ingresos y Egresos, Ademas de poder modificarlos en la misma aplicacion, todo se realiza de manera automatica.
-
-### Este programa toma los datos de una base de datos y te los muestra en pantalla, se pueden efectuar varias llamadas y peticiones a la base de datos pero este programa los hace automaticamente en una interfaz del cliente. Tambien Crea la tabla a donde efectuar las llamadas si se la requiere y le da 1 valor  a al primer registro por defecto. Se puede adecuar a cualquier tabla ya que se basa en componentes de React. Y Cambiar los valores para otras tablas y otras consultas resulta sencillo.
-
-### Tiene una seccion donde se puede crear un nuevo usuario que se almacena en una tabla. Esta tabla lleva el registro de los usuarios con tablas propias
-
-
-
-# Pasos para que la aplicacion funcione correctamente.
- 
-# 1) Base de datos 
 # Records-Manager
 
 ### It consists of an application that works with the personal records of each user allowing different actions in order to control income and expenses of expenses It also keeps a personal balance of Income and Expenses, In addition to being able to modify them in the same application, everything it is done automatically.
