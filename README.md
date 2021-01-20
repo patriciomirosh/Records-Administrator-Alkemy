@@ -12,7 +12,8 @@
 # Pasos para que la aplicacion funcione correctamente.
  
 # 1) Base de datos 
-En su servidor de base de datos locales Mysql crear la base de datos node20_mysql.
+Abrir el programa xampp y activar MySQL y Apache,
+En su servidor de base de datos locales Mysql crear la base de datos node20_mysql. 
 
 
 # 2)Backend en Node
@@ -32,6 +33,7 @@ Carpeta de archivos del front desarrollados en react, el archivo .env faltante p
 
 Descargar la carpeta, en la terminal de la carpeta correr con npm install y luego agregar el archivo .env que fue enviado por mail, por ultimo iniciar la pagina con npm start
 
+ Activar el la extension CORS por si se encuentra en google Chrome.
 
 
 Ademas ya se encuentra desplegado en la pagina https://patriciomirosh.github.io/login/ la pagina del Front, pero si no se realizan los pasos uno y dos, el administrador no puede acceder a la base de datos.
