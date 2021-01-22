@@ -26,7 +26,8 @@ export default class Footer extends Component {
            <div>
            
             <footer style={{marginTop:"25%",}}>
-            <div class="father">
+            <div classname="father row">
+                <div className='col-sm-6'>
                 <ul>
                     <li>
                         <img src={consultas} alt="queries" class="icon1"/>
@@ -41,23 +42,79 @@ export default class Footer extends Component {
                         <label>mirospatricio@gmail.com</label>
                     </li>
                 </ul>
+                </div>
+                <div className='col-sm-6'>
                 <ul>
                     <li>
                         <h4>Our social networks</h4>
                     </li>
                     <div class="nets">
                         <li>
-                            <img src={facebook} alt="facebook" class="icon2"/>
-                            <a href="https://www.facebook.com/patricio.pereyra.50/" className="hide queries">Facebook
+                            <img src={facebook} alt="facebook"  class="icon2"/>
+                            <a href="https://www.facebook.com/patricio.pereyra.50/" target="_blank" rel="noreferrer" className="hide queries">Facebook
                             </a>
                         </li>
                         <li>
-                            <img src={instagram} alt="instagram" class="icon2"/>
-                            <a href="https://www.instagram.com/pato_16_2/"
+                            <img src={instagram} alt="instagram"  class="icon2"/>
+                            <a target="_blank"  rel="noreferrer" href="https://www.instagram.com/pato_16_2/"
                                 class="hide queries">Instagram</a>
                         </li>
+
                     </div>
                 </ul>
+                </div>
+            
+            </div>
+        </footer>
+        <div hidden={this.state.contactMe}>
+        <ContactForm Username1={this.props.Username1} email={this.props.email} />
+        </div>
+        </div>
+
+        )
+    }
+}
+return (
+           <div>
+           
+            <footer style={{marginTop:"25%",}}>
+            <div classname="father row">
+                <div className='col-sm-6'>
+                <ul>
+                    <li>
+                        <img src={consultas} alt="queries" class="icon1"/>
+                        <button  className="btn btn-info" onClick ={this.onClick} >Contact me </button>
+                    </li>
+                    <li>
+                        <img src={whatsapp} alt="cel" class="icon1"/>
+                        <label>+54 9 3756 532653</label>
+                    </li>
+                    <li>
+                        <img src={email} alt="mail" class="icon1"/>
+                        <label>mirospatricio@gmail.com</label>
+                    </li>
+                </ul>
+                </div>
+                <div className='col-sm-6'>
+                <ul>
+                    <li>
+                        <h4>Our social networks</h4>
+                    </li>
+                    <div class="nets">
+                        <li>
+                            <img src={facebook} alt="facebook"  class="icon2"/>
+                            <a href="https://www.facebook.com/patricio.pereyra.50/" target="_blank" rel="noreferrer" className="hide queries">Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <img src={instagram} alt="instagram"  class="icon2"/>
+                            <a target="_blank"  rel="noreferrer" href="https://www.instagram.com/pato_16_2/"
+                                class="hide queries">Instagram</a>
+                        </li>
+
+                    </div>
+                </ul>
+                </div>
             
             </div>
         </footer>
