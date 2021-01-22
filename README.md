@@ -39,8 +39,12 @@ Download the folder, in the terminal of the folder run with npm install and then
 
 
 In addition, it is already displayed on the page https://patriciomirosh.github.io/login/, and running you can create your user and start to use.
-The node app is deployed in heroku ,
-One few things the app can't do is: send email because my account of heroku dont have the support, and the autenticattion of google denegated the accion.
+The node app is deployed in heroku.
+
+Only few things the app can't do is: send email because my account of heroku dont have the support, and the autenticattion of google denegated the accion.
+
+ if all the records are eliminated from a table it will give an error when executing next request.
+ After a while the server disconnects when it is hosted for free, it is enough that I restart it from my terminal.
 
 
 
