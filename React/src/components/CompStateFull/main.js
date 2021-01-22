@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import imp2 from '../sample/imp2.png'
 export default class Main extends Component {
-    render() {
-        return (
+    return (
             <main>
                  <h1 className="col-sm-12 align-self-center text-center " id="HeaderHome"><em>Home</em></h1>
-               
+                 <h5>{this.props.mail}</h5>
         <div className="container">
             <div className="row">
                 <div className="col-6" >
@@ -14,7 +13,7 @@ export default class Main extends Component {
                 <div className="col-5" id="ResizeTextOur">
                   
         <h2>Welcome </h2>
-        <h5>{this.props.mail}</h5>
+       
                     <p>Welcome to the Personal Records Manager. By following all the steps correctly you are in a position to manage your income and expenses.
                                                For more information contact your Supplier.
                     </p>
