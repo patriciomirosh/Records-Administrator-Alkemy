@@ -37,8 +37,11 @@ Download the folder, in the terminal of the folder run with npm install and then
  Activate the CORS extension in case it is in google Chrome.
 
 
-In addition, it is already displayed on the page https://patriciomirosh.github.io/login/ the Front page, but if steps one and two are not carried out, the administrator cannot access the database.
-The administrator on the page sends the requests and accesses the localhost route and port 3050.
+
+In addition, it is already displayed on the page https://patriciomirosh.github.io/login/, and running you can create your user and start to use.
+The node app is deployed in heroku ,
+One few things the app can't do is: send email because my account of heroku dont have the support, and the autenticattion of google denegated the accion.
+
 
 
 
